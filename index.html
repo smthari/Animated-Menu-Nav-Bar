@@ -10,7 +10,7 @@
   }
 
   .container {
-    background: linear-gradient(to left, #fff, rgb(243, 243, 157));
+    background: radial-gradient(yellow, lightpink, lightblue);
     border-radius: 15px;
   }
 
@@ -35,7 +35,7 @@
     float: left;
     white-space: nowrap;
     color: #111;
-    font-size: 28px;
+    font-size: 24px;
   }
 
   .item:last-child {
@@ -52,11 +52,11 @@
   }
 
   .toggle:checked~.expand .icon {
-    color: yellow;
+    color: white;
   }
 
   .toggle:checked~.expand .text {
-    color: yellow;
+    color: white;
   }
 
   .expand {
@@ -66,10 +66,6 @@
     padding: 1.5rem;
     padding-right: 1.5rem;
     cursor: pointer;
-  }
-
-  .expand:hover {
-    background: #111;
   }
 
   .expand:hover .icon {
